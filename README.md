@@ -1,6 +1,8 @@
-# KITTI Velodyne data Top View Converter
+# KITTI Velodyne data Top View Converter (Python)
 make KITTI velodyne lidar data, label for 3d to top view coordinates
 
+data link: http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d
+reference: https://github.com/bostondiditeam/MV3D, kitti devkit 
 
 ## make LidarTopPreprocess.so
 `$ g++ -Wall -O3 -shared LidarTopPreprocess.c -o LidarTopPreprocess.so - fPIC`
